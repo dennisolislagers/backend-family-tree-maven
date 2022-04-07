@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class Person {
 //      De attributen voor de klasse Person
     private String name;
@@ -7,9 +9,9 @@ public class Person {
     private int age;
     private String mother;
     private String father;
-    private boolean siblings;
-    private boolean children;
-    private boolean pets;
+//    private List<Siblings> sibling;
+//    private List<children> child;
+//    private List<Pets> pet;
 //      De constructor voor de attributen
 
     public Person(String name, String lastName, char sex, int age) {
@@ -100,27 +102,27 @@ public class Person {
         this.father = father;
     }
 
-    public boolean isSiblings() {
-        return siblings;
-    }
-
-    public void setSiblings(boolean siblings) {
-        this.siblings = siblings;
-    }
-
-    public boolean isChildren() {
-        return children;
-    }
-
-    public void setChildren(boolean children) {
-        this.children = children;
-    }
-
-    public boolean isPets() {
-        return pets;
-    }
-
-    public void setPets(boolean pets) {
-        this.pets = pets;
-    }
+//    public List<Siblings> getSibling() {
+//        return sibling;
+//    }
+//
+//    public void setSibling(List<Siblings> sibling) {
+//        this.sibling = sibling;
+//    }
+//
+//    public List<children> getChild() {
+//        return child;
+//    }
+//
+//    public void setChild(List<children> child) {
+//        this.child = child;
+//    }
+//
+//    public List<Pets> getPet() {
+//        return pet;
+//    }
+//
+//    public void setPet(List<Pets> pet) {
+//        this.pet = pet;
+//    }
 }
